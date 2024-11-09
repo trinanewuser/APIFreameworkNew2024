@@ -1,21 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="2" total="20" passed="18" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-05T21:32:53 IST" name="Default suite" finished-at="2024-11-05T21:33:01 IST" duration-ms="8606">
+  <suite started-at="2024-11-09T19:29:07 IST" name="API Regression Suite" finished-at="2024-11-09T19:29:33 IST" duration-ms="25942">
     <groups>
     </groups>
-    <test started-at="2024-11-05T21:32:53 IST" name="Default test" finished-at="2024-11-05T21:33:01 IST" duration-ms="8606">
-      <class name="com.qa.api.tests.UpdateUserTest">
-        <test-method is-config="true" signature="setupReport()[pri:0, instance:com.qa.api.tests.UpdateUserTest@6e6f2380]" started-at="2024-11-05T21:32:52 IST" name="setupReport" finished-at="2024-11-05T21:32:53 IST" duration-ms="523" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupReport -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.api.tests.UpdateUserTest@6e6f2380]" started-at="2024-11-05T21:32:53 IST" name="setup" finished-at="2024-11-05T21:32:54 IST" duration-ms="1433" status="PASS">
+    <test started-at="2024-11-09T19:29:07 IST" name="GET User Test" finished-at="2024-11-09T19:29:12 IST" duration-ms="4757">
+      <class name="com.qa.api.tests.GetUserTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.api.tests.GetUserTest@10a9d961]" started-at="2024-11-09T19:29:08 IST" name="setup" finished-at="2024-11-09T19:29:10 IST" duration-ms="2037" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="updateUserTestWithBuilder(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.api.tests.UpdateUserTest@6e6f2380]" started-at="2024-11-05T21:32:54 IST" name="updateUserTestWithBuilder" data-provider="getUserData" finished-at="2024-11-05T21:32:58 IST" duration-ms="3859" status="PASS">
+        <test-method signature="getUsers()[pri:0, instance:com.qa.api.tests.GetUserTest@10a9d961]" started-at="2024-11-09T19:29:10 IST" name="getUsers" finished-at="2024-11-09T19:29:12 IST" duration-ms="2443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUsers -->
+        <test-method is-config="true" signature="stopMockServer()[pri:0, instance:com.qa.api.tests.GetUserTest@10a9d961]" started-at="2024-11-09T19:29:12 IST" name="stopMockServer" finished-at="2024-11-09T19:29:12 IST" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopMockServer -->
+      </class> <!-- com.qa.api.tests.GetUserTest -->
+    </test> <!-- GET User Test -->
+    <test started-at="2024-11-09T19:29:13 IST" name="Update User Test" finished-at="2024-11-09T19:29:18 IST" duration-ms="5731">
+      <class name="com.qa.api.tests.UpdateUserTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.api.tests.UpdateUserTest@484094a5]" started-at="2024-11-09T19:29:13 IST" name="setup" finished-at="2024-11-09T19:29:13 IST" duration-ms="57" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="updateUserTestWithBuilder(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.api.tests.UpdateUserTest@484094a5]" started-at="2024-11-09T19:29:13 IST" name="updateUserTestWithBuilder" data-provider="getUserData" finished-at="2024-11-09T19:29:15 IST" duration-ms="2455" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -46,7 +58,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateUserTestWithBuilder -->
-        <test-method signature="updateUserTestWithBuilder(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.api.tests.UpdateUserTest@6e6f2380]" started-at="2024-11-05T21:32:58 IST" name="updateUserTestWithBuilder" data-provider="getUserData" finished-at="2024-11-05T21:33:00 IST" duration-ms="1743" status="PASS">
+        <test-method signature="updateUserTestWithBuilder(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.api.tests.UpdateUserTest@484094a5]" started-at="2024-11-09T19:29:15 IST" name="updateUserTestWithBuilder" data-provider="getUserData" finished-at="2024-11-09T19:29:17 IST" duration-ms="1683" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -77,7 +89,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateUserTestWithBuilder -->
-        <test-method signature="updateUserTestWithBuilder(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.api.tests.UpdateUserTest@6e6f2380]" started-at="2024-11-05T21:33:00 IST" name="updateUserTestWithBuilder" data-provider="getUserData" finished-at="2024-11-05T21:33:01 IST" duration-ms="1366" status="PASS">
+        <test-method signature="updateUserTestWithBuilder(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.api.tests.UpdateUserTest@484094a5]" started-at="2024-11-09T19:29:17 IST" name="updateUserTestWithBuilder" data-provider="getUserData" finished-at="2024-11-09T19:29:18 IST" duration-ms="1425" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -108,11 +120,273 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateUserTestWithBuilder -->
-        <test-method is-config="true" signature="stopMockServer()[pri:0, instance:com.qa.api.tests.UpdateUserTest@6e6f2380]" started-at="2024-11-05T21:33:01 IST" name="stopMockServer" finished-at="2024-11-05T21:33:01 IST" duration-ms="16" status="PASS">
+        <test-method is-config="true" signature="stopMockServer()[pri:0, instance:com.qa.api.tests.UpdateUserTest@484094a5]" started-at="2024-11-09T19:29:18 IST" name="stopMockServer" finished-at="2024-11-09T19:29:18 IST" duration-ms="18" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stopMockServer -->
       </class> <!-- com.qa.api.tests.UpdateUserTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Update User Test -->
+    <test started-at="2024-11-09T19:29:19 IST" name="Partial Update User Test" finished-at="2024-11-09T19:29:19 IST" duration-ms="856">
+      <class name="com.qa.api.tests.PatchUserTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.api.tests.PatchUserTest@76f4b65]" started-at="2024-11-09T19:29:19 IST" name="setup" finished-at="2024-11-09T19:29:19 IST" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="patchUserTestWithBuilder()[pri:0, instance:com.qa.api.tests.PatchUserTest@76f4b65]" started-at="2024-11-09T19:29:19 IST" name="patchUserTestWithBuilder" finished-at="2024-11-09T19:29:19 IST" duration-ms="790" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- patchUserTestWithBuilder -->
+        <test-method is-config="true" signature="stopMockServer()[pri:0, instance:com.qa.api.tests.PatchUserTest@76f4b65]" started-at="2024-11-09T19:29:19 IST" name="stopMockServer" finished-at="2024-11-09T19:29:19 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopMockServer -->
+      </class> <!-- com.qa.api.tests.PatchUserTest -->
+    </test> <!-- Partial Update User Test -->
+    <test started-at="2024-11-09T19:29:20 IST" name="Delete User Test" finished-at="2024-11-09T19:29:21 IST" duration-ms="1799">
+      <class name="com.qa.api.tests.DeleteUserTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.api.tests.DeleteUserTest@49ff7d8c]" started-at="2024-11-09T19:29:20 IST" name="setup" finished-at="2024-11-09T19:29:20 IST" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="deleteUserTestWithBuilder()[pri:0, instance:com.qa.api.tests.DeleteUserTest@49ff7d8c]" started-at="2024-11-09T19:29:20 IST" name="deleteUserTestWithBuilder" finished-at="2024-11-09T19:29:21 IST" duration-ms="1744" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUserTestWithBuilder -->
+        <test-method is-config="true" signature="stopMockServer()[pri:0, instance:com.qa.api.tests.DeleteUserTest@49ff7d8c]" started-at="2024-11-09T19:29:21 IST" name="stopMockServer" finished-at="2024-11-09T19:29:21 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopMockServer -->
+      </class> <!-- com.qa.api.tests.DeleteUserTest -->
+    </test> <!-- Delete User Test -->
+    <test started-at="2024-11-09T19:29:21 IST" name="Create User Test" finished-at="2024-11-09T19:29:26 IST" duration-ms="4826">
+      <class name="com.qa.api.tests.CreateUserTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.api.tests.CreateUserTest@4b40f651]" started-at="2024-11-09T19:29:21 IST" name="setup" finished-at="2024-11-09T19:29:21 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createUserTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.api.tests.CreateUserTest@4b40f651]" started-at="2024-11-09T19:29:21 IST" name="createUserTest" data-provider="getUserData" finished-at="2024-11-09T19:29:22 IST" duration-ms="387" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Naveen]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[male]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[active]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserTest -->
+        <test-method signature="createUserTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.api.tests.CreateUserTest@4b40f651]" started-at="2024-11-09T19:29:22 IST" name="createUserTest" data-provider="getUserData" finished-at="2024-11-09T19:29:22 IST" duration-ms="433" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mukesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[male]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[active]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserTest -->
+        <test-method signature="createUserTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.api.tests.CreateUserTest@4b40f651]" started-at="2024-11-09T19:29:22 IST" name="createUserTest" data-provider="getUserData" finished-at="2024-11-09T19:29:23 IST" duration-ms="408" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sanjay]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[male]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Inactive]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserTest -->
+        <test-method signature="createUserTestWithBuilder(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.api.tests.CreateUserTest@4b40f651]" started-at="2024-11-09T19:29:23 IST" name="createUserTestWithBuilder" data-provider="getUserData" finished-at="2024-11-09T19:29:24 IST" duration-ms="1148" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Naveen]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[male]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[active]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserTestWithBuilder -->
+        <test-method signature="createUserTestWithBuilder(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.api.tests.CreateUserTest@4b40f651]" started-at="2024-11-09T19:29:24 IST" name="createUserTestWithBuilder" data-provider="getUserData" finished-at="2024-11-09T19:29:25 IST" duration-ms="1568" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mukesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[male]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[active]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserTestWithBuilder -->
+        <test-method signature="createUserTestWithBuilder(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.api.tests.CreateUserTest@4b40f651]" started-at="2024-11-09T19:29:25 IST" name="createUserTestWithBuilder" data-provider="getUserData" finished-at="2024-11-09T19:29:26 IST" duration-ms="784" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sanjay]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[male]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Inactive]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserTestWithBuilder -->
+        <test-method is-config="true" signature="stopMockServer()[pri:0, instance:com.qa.api.tests.CreateUserTest@4b40f651]" started-at="2024-11-09T19:29:26 IST" name="stopMockServer" finished-at="2024-11-09T19:29:26 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopMockServer -->
+      </class> <!-- com.qa.api.tests.CreateUserTest -->
+    </test> <!-- Create User Test -->
+    <test started-at="2024-11-09T19:29:26 IST" name="Req Res API Test" finished-at="2024-11-09T19:29:27 IST" duration-ms="326">
+      <class name="com.qa.reqres.api.tests.ReqResTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.reqres.api.tests.ReqResTest@31c7528f]" started-at="2024-11-09T19:29:26 IST" name="setup" finished-at="2024-11-09T19:29:26 IST" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getUserTest()[pri:0, instance:com.qa.reqres.api.tests.ReqResTest@31c7528f]" started-at="2024-11-09T19:29:26 IST" name="getUserTest" finished-at="2024-11-09T19:29:27 IST" duration-ms="282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserTest -->
+        <test-method is-config="true" signature="stopMockServer()[pri:0, instance:com.qa.reqres.api.tests.ReqResTest@31c7528f]" started-at="2024-11-09T19:29:27 IST" name="stopMockServer" finished-at="2024-11-09T19:29:27 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopMockServer -->
+      </class> <!-- com.qa.reqres.api.tests.ReqResTest -->
+    </test> <!-- Req Res API Test -->
+    <test started-at="2024-11-09T19:29:27 IST" name="Contacts API Test" finished-at="2024-11-09T19:29:30 IST" duration-ms="2869">
+      <class name="com.qa.contacts.api.tests.ContactsTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.contacts.api.tests.ContactsTest@3ad2e17]" started-at="2024-11-09T19:29:27 IST" name="setup" finished-at="2024-11-09T19:29:27 IST" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="getToken()[pri:0, instance:com.qa.contacts.api.tests.ContactsTest@3ad2e17]" started-at="2024-11-09T19:29:27 IST" name="getToken" finished-at="2024-11-09T19:29:28 IST" duration-ms="1470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getToken -->
+        <test-method signature="getContactsTest()[pri:0, instance:com.qa.contacts.api.tests.ContactsTest@3ad2e17]" started-at="2024-11-09T19:29:28 IST" name="getContactsTest" finished-at="2024-11-09T19:29:30 IST" duration-ms="1300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getContactsTest -->
+        <test-method is-config="true" signature="stopMockServer()[pri:0, instance:com.qa.contacts.api.tests.ContactsTest@3ad2e17]" started-at="2024-11-09T19:29:30 IST" name="stopMockServer" finished-at="2024-11-09T19:29:30 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopMockServer -->
+      </class> <!-- com.qa.contacts.api.tests.ContactsTest -->
+    </test> <!-- Contacts API Test -->
+    <test started-at="2024-11-09T19:29:30 IST" name="Product API Test" finished-at="2024-11-09T19:29:31 IST" duration-ms="1542">
+      <class name="com.qa.products.api.tests.ProductAPITest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.products.api.tests.ProductAPITest@4426bff1]" started-at="2024-11-09T19:29:30 IST" name="setup" finished-at="2024-11-09T19:29:30 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getProductsAPILimitTest()[pri:0, instance:com.qa.products.api.tests.ProductAPITest@4426bff1]" started-at="2024-11-09T19:29:30 IST" name="getProductsAPILimitTest" finished-at="2024-11-09T19:29:30 IST" duration-ms="660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProductsAPILimitTest -->
+        <test-method signature="getProductsAPITest()[pri:0, instance:com.qa.products.api.tests.ProductAPITest@4426bff1]" started-at="2024-11-09T19:29:30 IST" name="getProductsAPITest" finished-at="2024-11-09T19:29:31 IST" duration-ms="835" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProductsAPITest -->
+        <test-method is-config="true" signature="stopMockServer()[pri:0, instance:com.qa.products.api.tests.ProductAPITest@4426bff1]" started-at="2024-11-09T19:29:31 IST" name="stopMockServer" finished-at="2024-11-09T19:29:31 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopMockServer -->
+      </class> <!-- com.qa.products.api.tests.ProductAPITest -->
+    </test> <!-- Product API Test -->
+    <test started-at="2024-11-09T19:29:31 IST" name="Product API with Deserialization Test" finished-at="2024-11-09T19:29:32 IST" duration-ms="959">
+      <class name="com.qa.products.api.tests.ProductAPITestWithDeserialization">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.products.api.tests.ProductAPITestWithDeserialization@52c3cb31]" started-at="2024-11-09T19:29:31 IST" name="setup" finished-at="2024-11-09T19:29:31 IST" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getProductsTest()[pri:0, instance:com.qa.products.api.tests.ProductAPITestWithDeserialization@52c3cb31]" started-at="2024-11-09T19:29:31 IST" name="getProductsTest" finished-at="2024-11-09T19:29:32 IST" duration-ms="906" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProductsTest -->
+        <test-method is-config="true" signature="stopMockServer()[pri:0, instance:com.qa.products.api.tests.ProductAPITestWithDeserialization@52c3cb31]" started-at="2024-11-09T19:29:32 IST" name="stopMockServer" finished-at="2024-11-09T19:29:32 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopMockServer -->
+      </class> <!-- com.qa.products.api.tests.ProductAPITestWithDeserialization -->
+    </test> <!-- Product API with Deserialization Test -->
+    <test started-at="2024-11-09T19:29:33 IST" name="Product API with Json validator Test" finished-at="2024-11-09T19:29:33 IST" duration-ms="799">
+      <class name="com.qa.products.api.tests.ProductTestWithJsonPathValidator">
+        <test-method is-config="true" signature="setupReport()[pri:0, instance:com.qa.products.api.tests.ProductTestWithJsonPathValidator@3fc9504b]" started-at="2024-11-09T19:29:07 IST" name="setupReport" finished-at="2024-11-09T19:29:07 IST" duration-ms="636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.products.api.tests.ProductTestWithJsonPathValidator@3fc9504b]" started-at="2024-11-09T19:29:33 IST" name="setup" finished-at="2024-11-09T19:29:33 IST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getProductTest()[pri:0, instance:com.qa.products.api.tests.ProductTestWithJsonPathValidator@3fc9504b]" started-at="2024-11-09T19:29:33 IST" name="getProductTest" finished-at="2024-11-09T19:29:33 IST" duration-ms="764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProductTest -->
+        <test-method is-config="true" signature="stopMockServer()[pri:0, instance:com.qa.products.api.tests.ProductTestWithJsonPathValidator@3fc9504b]" started-at="2024-11-09T19:29:33 IST" name="stopMockServer" finished-at="2024-11-09T19:29:33 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopMockServer -->
+      </class> <!-- com.qa.products.api.tests.ProductTestWithJsonPathValidator -->
+    </test> <!-- Product API with Json validator Test -->
+  </suite> <!-- API Regression Suite -->
 </testng-results>
