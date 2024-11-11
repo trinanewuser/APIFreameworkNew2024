@@ -46,11 +46,11 @@ pipeline
       stage('Run Docker Image with Regression Tests') {
     steps {
         script {
-            def suiteXmlFilePath = 'src/test/resources/testrunners/testng_regression.xml'
+            def suiteXmlFilePath = 'src/test/resources/testngxml/testng_regression.xml'
             def dockerCommand = """
                 docker run --name apitesting${BUILD_NUMBER} \
                 -v "${WORKSPACE}/reports:/app/reports" \
-                naveenkhunteta/apiregressiontest:latest \
+                trinasinha/apiregressiontest:latest \
                 /bin/bash -c "mvn test -Dsurefire.suiteXmlFiles=${suiteXmlFilePath}"
             """
             
