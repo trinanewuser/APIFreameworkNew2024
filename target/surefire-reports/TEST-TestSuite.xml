@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="30.751" tests="18" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="25.459" tests="18" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.4.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\arupk\AppData\Local\Temp\surefire9220649810546646798\surefirebooter-20241106185859951_3.jar C:\Users\arupk\AppData\Local\Temp\surefire9220649810546646798 2024-11-06T18-58-59_433-jvmRun1 surefire-20241106185859951_1tmp surefire_0-20241106185859951_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\arupk\AppData\Local\Temp\surefire16846228485520218739\surefirebooter-20241112010411073_3.jar C:\Users\arupk\AppData\Local\Temp\surefire16846228485520218739 2024-11-12T01-04-10_853-jvmRun1 surefire-20241112010411073_1tmp surefire_0-20241112010411073_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\arupk\eclipse-workspace\July2024Apiframework\target\test-classes;C:\Users\arupk\eclipse-workspace\July2024Apiframework\target\classes;C:\Users\arupk\.m2\repository\org\testng\testng\7.0.0\testng-7.0.0.jar;C:\Users\arupk\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\arupk\.m2\repository\io\rest-assured\rest-assured\5.5.0\rest-assured-5.5.0.jar;C:\Users\arupk\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\arupk\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\arupk\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\arupk\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\arupk\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\arupk\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\arupk\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\arupk\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\arupk\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\arupk\.m2\repository\io\rest-assured\json-path\5.5.0\json-path-5.5.0.jar;C:\Users\arupk\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\arupk\.m2\repository\io\rest-assured\rest-assured-common\5.5.0\rest-assured-common-5.5.0.jar;C:\Users\arupk\.m2\repository\io\rest-assured\xml-path\5.5.0\xml-path-5.5.0.jar;C:\Users\arupk\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\arupk\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.2\jackson-databind-2.17.2.jar;C:\Users\arupk\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.2\jackson-annotations-2.17.2.jar;C:\Users\arupk\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.2\jackson-core-2.17.2.jar;C:\Users\arupk\.m2\repository\org\projectlombok\lombok\1.18.30\lombok-1.18.30.jar;C:\Users\arupk\.m2\repository\com\jayway\jsonpath\json-path\2.9.0\json-path-2.9.0.jar;C:\Users\arupk\.m2\repository\net\minidev\json-smart\2.5.0\json-smart-2.5.0.jar;C:\Users\arupk\.m2\repository\net\minidev\accessors-smart\2.5.0\accessors-smart-2.5.0.jar;C:\Users\arupk\.m2\repository\org\ow2\asm\asm\9.3\asm-9.3.jar;C:\Users\arupk\.m2\repository\org\slf4j\slf4j-api\2.0.11\slf4j-api-2.0.11.jar;C:\Users\arupk\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-xml\2.17.0\jackson-dataformat-xml-2.17.0.jar;C:\Users\arupk\.m2\repository\org\codehaus\woodstox\stax2-api\4.2.2\stax2-api-4.2.2.jar;C:\Users\arupk\.m2\repository\com\fasterxml\woodstox\woodstox-core\6.6.1\woodstox-core-6.6.1.jar;C:\Users\arupk\.m2\repository\com\github\scribejava\scribejava-core\2.5.3\scribejava-core-2.5.3.jar;C:\Users\arupk\.m2\repository\io\qameta\allure\allure-rest-assured\2.23.0\allure-rest-assured-2.23.0.jar;C:\Users\arupk\.m2\repository\io\qameta\allure\allure-attachments\2.23.0\allure-attachments-2.23.0.jar;C:\Users\arupk\.m2\repository\io\qameta\allure\allure-testng\2.23.0\allure-testng-2.23.0.jar;C:\Users\arupk\.m2\repository\io\qameta\allure\allure-java-commons\2.23.0\allure-java-commons-2.23.0.jar;C:\Users\arupk\.m2\repository\io\qameta\allure\allure-model\2.23.0\allure-model-2.23.0.jar;C:\Users\arupk\.m2\repository\io\qameta\allure\allure-test-filter\2.23.0\allure-test-filter-2.23.0.jar;C:\Users\arupk\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\arupk\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\arupk\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\arupk\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\arupk\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\arupk\.m2\repository\io\rest-assured\json-schema-validator\5.5.0\json-schema-validator-5.5.0.jar;C:\Users\arupk\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\arupk\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\arupk\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\arupk\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\arupk\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\arupk\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\arupk\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\arupk\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\arupk\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\arupk\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\arupk\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\arupk\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\arupk\.m2\repository\com\google\guava\guava\33.2.1-jre\guava-33.2.1-jre.jar;C:\Users\arupk\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\arupk\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\arupk\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\arupk\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\arupk\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\arupk\.m2\repository\org\wiremock\wiremock\3.9.2\wiremock-3.9.2.jar;C:\Users\arupk\.m2\repository\org\eclipse\jetty\jetty-server\11.0.24\jetty-server-11.0.24.jar;C:\Users\arupk\.m2\repository\org\eclipse\jetty\jetty-http\11.0.24\jetty-http-11.0.24.jar;C:\Users\arupk\.m2\repository\org\eclipse\jetty\jetty-io\11.0.24\jetty-io-11.0.24.jar;C:\Users\arupk\.m2\repository\org\eclipse\jetty\toolchain\jetty-jakarta-servlet-api\5.0.2\jetty-jakarta-servlet-api-5.0.2.jar;C:\Users\arupk\.m2\repository\org\eclipse\jetty\jetty-servlet\11.0.24\jetty-servlet-11.0.24.jar;C:\Users\arupk\.m2\repository\org\eclipse\jetty\jetty-security\11.0.24\jetty-security-11.0.24.jar;C:\Users\arupk\.m2\repository\org\eclipse\jetty\jetty-servlets\11.0.24\jetty-servlets-11.0.24.jar;C:\Users\arupk\.m2\repository\org\eclipse\jetty\jetty-util\11.0.24\jetty-util-11.0.24.jar;C:\Users\arupk\.m2\repository\org\eclipse\jetty\jetty-webapp\11.0.24\jetty-webapp-11.0.24.jar;C:\Users\arupk\.m2\repository\org\eclipse\jetty\jetty-xml\11.0.24\jetty-xml-11.0.24.jar;C:\Users\arupk\.m2\repository\org\eclipse\jetty\jetty-proxy\11.0.24\jetty-proxy-11.0.24.jar;C:\Users\arupk\.m2\repository\org\eclipse\jetty\jetty-client\11.0.24\jetty-client-11.0.24.jar;C:\Users\arupk\.m2\repository\org\eclipse\jetty\http2\http2-server\11.0.24\http2-server-11.0.24.jar;C:\Users\arupk\.m2\repository\org\eclipse\jetty\http2\http2-common\11.0.24\http2-common-11.0.24.jar;C:\Users\arupk\.m2\repository\org\eclipse\jetty\http2\http2-hpack\11.0.24\http2-hpack-11.0.24.jar;C:\Users\arupk\.m2\repository\org\eclipse\jetty\jetty-alpn-server\11.0.24\jetty-alpn-server-11.0.24.jar;C:\Users\arupk\.m2\repository\org\eclipse\jetty\jetty-alpn-java-server\11.0.24\jetty-alpn-java-server-11.0.24.jar;C:\Users\arupk\.m2\repository\org\eclipse\jetty\jetty-alpn-java-client\11.0.24\jetty-alpn-java-client-11.0.24.jar;C:\Users\arupk\.m2\repository\org\eclipse\jetty\jetty-alpn-client\11.0.24\jetty-alpn-client-11.0.24.jar;C:\Users\arupk\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.17.2\jackson-datatype-jsr310-2.17.2.jar;C:\Users\arupk\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.3.1\httpclient5-5.3.1.jar;C:\Users\arupk\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2.4\httpcore5-5.2.4.jar;C:\Users\arupk\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2.4\httpcore5-h2-5.2.4.jar;C:\Users\arupk\.m2\repository\org\xmlunit\xmlunit-core\2.10.0\xmlunit-core-2.10.0.jar;C:\Users\arupk\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\arupk\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\arupk\.m2\repository\org\xmlunit\xmlunit-legacy\2.10.0\xmlunit-legacy-2.10.0.jar;C:\Users\arupk\.m2\repository\org\xmlunit\xmlunit-placeholders\2.10.0\xmlunit-placeholders-2.10.0.jar;C:\Users\arupk\.m2\repository\net\javacrumbs\json-unit\json-unit-core\2.40.1\json-unit-core-2.40.1.jar;C:\Users\arupk\.m2\repository\org\hamcrest\hamcrest-core\2.2\hamcrest-core-2.2.jar;C:\Users\arupk\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\arupk\.m2\repository\com\github\jknack\handlebars\4.3.1\handlebars-4.3.1.jar;C:\Users\arupk\.m2\repository\com\github\jknack\handlebars-helpers\4.3.1\handlebars-helpers-4.3.1.jar;C:\Users\arupk\.m2\repository\commons-fileupload\commons-fileupload\1.5\commons-fileupload-1.5.jar;C:\Users\arupk\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\arupk\.m2\repository\com\networknt\json-schema-validator\1.5.2\json-schema-validator-1.5.2.jar;C:\Users\arupk\.m2\repository\com\ethlo\time\itu\1.10.2\itu-1.10.2.jar;C:\Users\arupk\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-yaml\2.17.2\jackson-dataformat-yaml-2.17.2.jar;C:\Users\arupk\.m2\repository\org\yaml\snakeyaml\2.2\snakeyaml-2.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\arupk\AppData\Local\Temp\surefire9220649810546646798\surefirebooter-20241106185859951_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\arupk\AppData\Local\Temp\surefire16846228485520218739\surefirebooter-20241112010411073_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="org.eclipse.jetty.http.HttpGenerator.STRICT" value="true"/>
@@ -60,7 +60,7 @@
     <property name="javax.xml.transform.TransformerFactory" value="com.sun.org.apache.xalan.internal.xsltc.trax.TransformerFactoryImpl"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="getUsers" classname="com.qa.api.tests.GetUserTest" time="2.444">
+  <testcase name="getUsers" classname="com.qa.api.tests.GetUserTest" time="1.881">
     <system-out><![CDATA[...
 ... TestNG 7.0.0 by CÃ©dric Beust (cedric@beust.com)
 ...
@@ -68,12 +68,12 @@
 Test Suite started!
 getUsers started!
 HTTP/1.1 200 OK
-Date: Wed, 06 Nov 2024 13:29:07 GMT
+Date: Mon, 11 Nov 2024 19:34:19 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
 Cache-Control: max-age=0, private, must-revalidate
-etag: W/"3e9ded0ed31950f2621424d062b4edbc"
+etag: W/"5071e5f2410b60888c956b3b9867cb7a"
 referrer-policy: strict-origin-when-cross-origin
 vary: Origin
 x-content-type-options: nosniff
@@ -84,80 +84,164 @@ x-links-next: https://gorest.co.in/public/v2/users?page=2
 x-links-previous: 
 x-pagination-limit: 10
 x-pagination-page: 1
-x-pagination-pages: 1
-x-pagination-total: 4
+x-pagination-pages: 2
+x-pagination-total: 16
 x-permitted-cross-domain-policies: none
 x-ratelimit-limit: 90
-x-ratelimit-remaining: 70
+x-ratelimit-remaining: 75
 x-ratelimit-reset: 1
-x-request-id: 687e8b12-c1de-4795-bbdf-98184efdd6cd
-x-runtime: 0.115375
+x-request-id: 2c78d098-de5b-4017-b6cb-506bae8a0577
+x-runtime: 0.164408
 x-xss-protection: 0
 cf-cache-status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=QG85udL88VlrLBfvBataE9vCmvvFhXdXD92iJUpXXlIRua3LNy3WdXw5EpGojhoL42yd%2FpmQQ8kjIwOoiDWsUeXRtex5o9ceUPOPL8gPutgooWR3bYusvWC0ooOoegg%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=R4U%2BWeCHDEKzUm8pf8NWwSDbx%2BTZK251B11FoL7payfl5ILwkSPc8FI6lYLxZ9q9%2BhLymhJ3q3BljE7lZg%2F3snBvwBKrQMhXq1VFKQWxlXaWF1dFuqJzBWomcc73gE4%3D"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 8de56e3c4bee2dff-BOM
+CF-RAY: 8e10b8103bee3f7e-BOM
 Content-Encoding: gzip
 alt-svc: h3=":443"; ma=86400
-server-timing: cfL4;desc="?proto=TCP&rtt=36319&sent=6&recv=7&lost=0&retrans=0&sent_bytes=2886&recv_bytes=993&delivery_rate=79694&cwnd=226&unsent_bytes=0&cid=9dc138fa24e5d329&ts=409&x=0"
+server-timing: cfL4;desc="?proto=TCP&rtt=49292&sent=6&recv=7&lost=0&retrans=0&sent_bytes=2884&recv_bytes=993&delivery_rate=44929&cwnd=251&unsent_bytes=0&cid=0665a4ab297f1a6a&ts=456&x=0"
 
 [
     {
-        "id": 7506198,
+        "id": 7514528,
         "name": "Naveen",
-        "email": "apiautomation1730833146804@open.com",
+        "email": "apiautomation1731253592198@open.com",
         "gender": "male",
         "status": "active"
     },
     {
-        "id": 7506195,
+        "id": 7514525,
         "name": "Naveen",
-        "email": "apiautomation1730833145376@open.com",
+        "email": "apiautomation1731253590819@open.com",
         "gender": "male",
         "status": "active"
     },
     {
-        "id": 7505993,
+        "id": 7513712,
         "name": "Naveen",
-        "email": "apiautomation1730821470735@open.com",
+        "email": "apiautomation1731232723107@open.com",
         "gender": "male",
         "status": "active"
     },
     {
-        "id": 7505990,
+        "id": 7513709,
         "name": "Naveen",
-        "email": "apiautomation1730821466863@open.com",
+        "email": "apiautomation1731232721903@open.com",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 7513688,
+        "name": "Naveen",
+        "email": "apiautomation1731231700723@open.com",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 7513685,
+        "name": "Naveen",
+        "email": "apiautomation1731231699467@open.com",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 7512900,
+        "name": "Naveen",
+        "email": "apiautomation1731172542216@open.com",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 7512896,
+        "name": "Naveen",
+        "email": "apiautomation1731172540348@open.com",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 7512711,
+        "name": "Naveen",
+        "email": "apiautomation1731166865877@open.com",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 7512708,
+        "name": "Naveen",
+        "email": "apiautomation1731166863508@open.com",
         "gender": "male",
         "status": "active"
     }
 ]
 [
     {
-        "id": 7506198,
+        "id": 7514528,
         "name": "Naveen",
-        "email": "apiautomation1730833146804@open.com",
+        "email": "apiautomation1731253592198@open.com",
         "gender": "male",
         "status": "active"
     },
     {
-        "id": 7506195,
+        "id": 7514525,
         "name": "Naveen",
-        "email": "apiautomation1730833145376@open.com",
+        "email": "apiautomation1731253590819@open.com",
         "gender": "male",
         "status": "active"
     },
     {
-        "id": 7505993,
+        "id": 7513712,
         "name": "Naveen",
-        "email": "apiautomation1730821470735@open.com",
+        "email": "apiautomation1731232723107@open.com",
         "gender": "male",
         "status": "active"
     },
     {
-        "id": 7505990,
+        "id": 7513709,
         "name": "Naveen",
-        "email": "apiautomation1730821466863@open.com",
+        "email": "apiautomation1731232721903@open.com",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 7513688,
+        "name": "Naveen",
+        "email": "apiautomation1731231700723@open.com",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 7513685,
+        "name": "Naveen",
+        "email": "apiautomation1731231699467@open.com",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 7512900,
+        "name": "Naveen",
+        "email": "apiautomation1731172542216@open.com",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 7512896,
+        "name": "Naveen",
+        "email": "apiautomation1731172540348@open.com",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 7512711,
+        "name": "Naveen",
+        "email": "apiautomation1731166865877@open.com",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 7512708,
+        "name": "Naveen",
+        "email": "apiautomation1731166863508@open.com",
         "gender": "male",
         "status": "active"
     }
@@ -169,25 +253,25 @@ SLF4J(W): Defaulting to no-operation (NOP) logger implementation
 SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="updateUserTestWithBuilder[Naveen, male, active, inactive, NaveenAutomation](1)" classname="com.qa.api.tests.UpdateUserTest" time="3.523">
+  <testcase name="updateUserTestWithBuilder[Naveen, male, active, inactive, NaveenAutomation](1)" classname="com.qa.api.tests.UpdateUserTest" time="2.636">
     <system-out><![CDATA[Test Suite is ending!
 Test Suite started!
 updateUserTestWithBuilder started!
 {
-    "id": 7507705,
+    "id": 7517391,
     "name": "Naveen",
-    "email": "apiautomation1730899748114@open.com",
+    "email": "apiautomation1731353657511@open.com",
     "gender": "male",
     "status": "active"
 }
-userId: 7507705
+userId: 7517391
 HTTP/1.1 200 OK
-Date: Wed, 06 Nov 2024 13:29:10 GMT
+Date: Mon, 11 Nov 2024 19:34:21 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
 Cache-Control: max-age=0, private, must-revalidate
-etag: W/"a206d7798d54f7bc17dbee949347f0fd"
+etag: W/"c66710be8138084bd7629fb803ce19c7"
 referrer-policy: strict-origin-when-cross-origin
 vary: Origin
 x-content-type-options: nosniff
@@ -197,59 +281,59 @@ x-permitted-cross-domain-policies: none
 x-ratelimit-limit: 90
 x-ratelimit-remaining: 89
 x-ratelimit-reset: 1
-x-request-id: e51b42d9-464d-40c0-b7e1-5ca77030b782
-x-runtime: 0.062588
+x-request-id: d6adfb3c-d1c4-4c9a-a567-64ebf2b4294a
+x-runtime: 0.269602
 x-xss-protection: 0
 cf-cache-status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=OXByJ1BzozcKVFXLXesdIGWX0hNiQhbZeYwXa0DNmcu%2Bmgg2bvdPMn2sQIy7YtzlOHmoZzWOMXpH22j%2BsaLWwxNoTOdCeR%2FQUqzGoGTH8suZVHhJtjNk4DUt2K7yzko%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=WSBK%2FSZ3jjnu0beyQ6udAMblXmnW6jWMlUokbJnhnpHymG5BeiSsfj4%2F3u6nVg5fvJiMDkFkg6NEdRRcHN5fWOi9pysrSMjbjyaPcVqqLKAHabbjjVKXZi2sHZC0bIk%3D"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 8de56e52bb583c22-BOM
+CF-RAY: 8e10b81e5ad33b34-BOM
 Content-Encoding: gzip
 alt-svc: h3=":443"; ma=86400
-server-timing: cfL4;desc="?proto=TCP&rtt=37718&sent=4&recv=6&lost=0&retrans=0&sent_bytes=2886&recv_bytes=975&delivery_rate=70209&cwnd=243&unsent_bytes=0&cid=3d703e8f0e430918&ts=223&x=0"
+server-timing: cfL4;desc="?proto=TCP&rtt=46778&sent=4&recv=6&lost=0&retrans=0&sent_bytes=2884&recv_bytes=975&delivery_rate=63683&cwnd=250&unsent_bytes=0&cid=8c313096a94b70f1&ts=402&x=0"
 
 {
-    "id": 7507705,
+    "id": 7517391,
     "name": "Naveen",
-    "email": "apiautomation1730899748114@open.com",
+    "email": "apiautomation1731353657511@open.com",
     "gender": "male",
     "status": "active"
 }
 {
-    "id": 7507705,
+    "id": 7517391,
     "name": "Naveen",
-    "email": "apiautomation1730899748114@open.com",
+    "email": "apiautomation1731353657511@open.com",
     "gender": "male",
     "status": "active"
 }
 {
-    "email": "apiautomation1730899748114@open.com",
+    "email": "apiautomation1731353657511@open.com",
     "name": "NaveenAutomation",
     "gender": "male",
     "status": "inactive",
-    "id": 7507705
+    "id": 7517391
 }
 updateUserTestWithBuilder passed!
 ]]></system-out>
   </testcase>
-  <testcase name="updateUserTestWithBuilder[Mukesh, male, active, inactive, MukeshAutomation](2)" classname="com.qa.api.tests.UpdateUserTest" time="1.798">
+  <testcase name="updateUserTestWithBuilder[Mukesh, male, active, inactive, MukeshAutomation](2)" classname="com.qa.api.tests.UpdateUserTest" time="1.864">
     <system-out><![CDATA[updateUserTestWithBuilder started!
 {
-    "id": 7507708,
+    "id": 7517392,
     "name": "Mukesh",
-    "email": "apiautomation1730899751628@open.com",
+    "email": "apiautomation1731353660162@open.com",
     "gender": "male",
     "status": "active"
 }
-userId: 7507708
+userId: 7517392
 HTTP/1.1 200 OK
-Date: Wed, 06 Nov 2024 13:29:13 GMT
+Date: Mon, 11 Nov 2024 19:34:23 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
 Cache-Control: max-age=0, private, must-revalidate
-etag: W/"a53aa8a6538dde3902a95728fe3c491d"
+etag: W/"b88a1999c442094d48df5107e5400626"
 referrer-policy: strict-origin-when-cross-origin
 vary: Origin
 x-content-type-options: nosniff
@@ -259,59 +343,59 @@ x-permitted-cross-domain-policies: none
 x-ratelimit-limit: 90
 x-ratelimit-remaining: 88
 x-ratelimit-reset: 2
-x-request-id: e5738faf-999d-45e6-a7ba-755c46a70133
-x-runtime: 0.137046
+x-request-id: 9afea585-1941-4e09-bfb1-8814ba9d282a
+x-runtime: 0.094113
 x-xss-protection: 0
 cf-cache-status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=LJFpHw5oZKqEAEZst7ZBR2KNGZFxT4sd1SaMDD%2BFZ9dkS%2FDEMqvYoDswTXSWk53HjCJhOu%2Fq6ZuQqMTlNV7dsux1ltxEsX%2F%2B4q%2FdDpP67J%2FjRXTZk5IAeQFcpk%2Bf%2Bnk%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=QjusiU8abeRQn2mWlPp2FUD6K1TKMfa%2BuvNrBJ8czt4%2BLLvOxzLHlemXaR9ePuLI2TVYE45GTnnZ5B7Jo4tS%2BwXvy%2BSNaVOlBqGvQ0lHR87ywp7CwmgKYtnWIE82ySw%3D"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 8de56e5d1ac26ed0-BOM
+CF-RAY: 8e10b82cfd8af419-BOM
 Content-Encoding: gzip
 alt-svc: h3=":443"; ma=86400
-server-timing: cfL4;desc="?proto=TCP&rtt=38090&sent=4&recv=6&lost=0&retrans=0&sent_bytes=2884&recv_bytes=975&delivery_rate=77831&cwnd=203&unsent_bytes=0&cid=eaf750b5512e03f2&ts=610&x=0"
+server-timing: cfL4;desc="?proto=TCP&rtt=47165&sent=4&recv=6&lost=0&retrans=0&sent_bytes=2884&recv_bytes=975&delivery_rate=60748&cwnd=251&unsent_bytes=0&cid=33733c0f61f1be50&ts=239&x=0"
 
 {
-    "id": 7507708,
+    "id": 7517392,
     "name": "Mukesh",
-    "email": "apiautomation1730899751628@open.com",
+    "email": "apiautomation1731353660162@open.com",
     "gender": "male",
     "status": "active"
 }
 {
-    "id": 7507708,
+    "id": 7517392,
     "name": "Mukesh",
-    "email": "apiautomation1730899751628@open.com",
+    "email": "apiautomation1731353660162@open.com",
     "gender": "male",
     "status": "active"
 }
 {
-    "email": "apiautomation1730899751628@open.com",
+    "email": "apiautomation1731353660162@open.com",
     "name": "MukeshAutomation",
     "gender": "male",
     "status": "inactive",
-    "id": 7507708
+    "id": 7517392
 }
 updateUserTestWithBuilder passed!
 ]]></system-out>
   </testcase>
-  <testcase name="updateUserTestWithBuilder[Sanjay, male, Inactive, active, Sanjayautomation](3)" classname="com.qa.api.tests.UpdateUserTest" time="1.274">
+  <testcase name="updateUserTestWithBuilder[Sanjay, male, Inactive, active, Sanjayautomation](3)" classname="com.qa.api.tests.UpdateUserTest" time="1.545">
     <system-out><![CDATA[updateUserTestWithBuilder started!
 {
-    "id": 7507709,
+    "id": 7517393,
     "name": "Sanjay",
-    "email": "apiautomation1730899753451@open.com",
+    "email": "apiautomation1731353662038@open.com",
     "gender": "male",
     "status": "inactive"
 }
-userId: 7507709
+userId: 7517393
 HTTP/1.1 200 OK
-Date: Wed, 06 Nov 2024 13:29:14 GMT
+Date: Mon, 11 Nov 2024 19:34:25 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
 Cache-Control: max-age=0, private, must-revalidate
-etag: W/"7d040a26fec09b4f2765c8a6ca8fa44e"
+etag: W/"cd9a1e0c643c2aa6de82a7e05566767d"
 referrer-policy: strict-origin-when-cross-origin
 vary: Origin
 x-content-type-options: nosniff
@@ -321,118 +405,61 @@ x-permitted-cross-domain-policies: none
 x-ratelimit-limit: 90
 x-ratelimit-remaining: 86
 x-ratelimit-reset: 4
-x-request-id: d586eec7-27cf-4f72-88ea-f5797024b066
-x-runtime: 0.089219
+x-request-id: 427d8faa-f49e-4741-a4b1-54e96d1a438a
+x-runtime: 0.105931
 x-xss-protection: 0
 cf-cache-status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=CyT4FrtTzyJ7jXPQuUUeLZDRYRqP4Tu5%2FwOccR9N%2FMFCEoPQ4K1rFiHzL0hkO38dhJ1YBqZbCAlIhZLSjuvSj%2F%2FAQbYqUvDiwuV6H9ogbAkHnmTP%2Bx0sqrWMA80P%2BDs%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=r4eHnn%2Bh252LZkuNEKT3lxbFsgVG7S6VwHvgkA5KxvS%2Bl4VFoDIZcKOtr6OyyTro93pY2S8RjX9BmDSpn57jdab4JIPe8mfbK7B%2FFBWn9rOOTgc0wo0UPsjfYwS2pnw%3D"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 8de56e67b858423c-BOM
+CF-RAY: 8e10b836cc18836f-BOM
 Content-Encoding: gzip
 alt-svc: h3=":443"; ma=86400
-server-timing: cfL4;desc="?proto=TCP&rtt=38085&sent=4&recv=6&lost=0&retrans=0&sent_bytes=2884&recv_bytes=975&delivery_rate=78321&cwnd=249&unsent_bytes=0&cid=25a8194b73e55455&ts=182&x=0"
+server-timing: cfL4;desc="?proto=TCP&rtt=47016&sent=4&recv=6&lost=0&retrans=0&sent_bytes=2885&recv_bytes=975&delivery_rate=61876&cwnd=251&unsent_bytes=0&cid=7a552e9760a45d63&ts=257&x=0"
 
 {
-    "id": 7507709,
+    "id": 7517393,
     "name": "Sanjay",
-    "email": "apiautomation1730899753451@open.com",
+    "email": "apiautomation1731353662038@open.com",
     "gender": "male",
     "status": "inactive"
 }
 {
-    "id": 7507709,
+    "id": 7517393,
     "name": "Sanjay",
-    "email": "apiautomation1730899753451@open.com",
+    "email": "apiautomation1731353662038@open.com",
     "gender": "male",
     "status": "inactive"
 }
 {
-    "email": "apiautomation1730899753451@open.com",
+    "email": "apiautomation1731353662038@open.com",
     "name": "Sanjayautomation",
     "gender": "male",
     "status": "active",
-    "id": 7507709
+    "id": 7517393
 }
 updateUserTestWithBuilder passed!
 ]]></system-out>
   </testcase>
-  <testcase name="patchUserTestWithBuilder" classname="com.qa.api.tests.PatchUserTest" time="0.971">
+  <testcase name="patchUserTestWithBuilder" classname="com.qa.api.tests.PatchUserTest" time="0.909">
     <system-out><![CDATA[Test Suite is ending!
 Test Suite started!
 patchUserTestWithBuilder started!
 {
-    "id": 7507711,
+    "id": 7517394,
     "name": "APiName",
-    "email": "apiautomation1730899754949@open.com",
+    "email": "apiautomation1731353663695@open.com",
     "gender": "female",
     "status": "active"
 }
-userId: 7507711
+userId: 7517394
 HTTP/1.1 200 OK
-Date: Wed, 06 Nov 2024 13:29:15 GMT
+Date: Mon, 11 Nov 2024 19:34:26 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
 Cache-Control: max-age=0, private, must-revalidate
-etag: W/"6aff8a07be7bd2b531fe9db02f9c83dd"
-referrer-policy: strict-origin-when-cross-origin
-vary: Origin
-x-content-type-options: nosniff
-x-download-options: noopen
-x-frame-options: SAMEORIGIN
-x-permitted-cross-domain-policies: none
-x-ratelimit-limit: 90
-x-ratelimit-remaining: 84
-x-ratelimit-reset: 5
-x-request-id: 46429492-7f32-443c-aba0-663ec838c89d
-x-runtime: 0.127742
-x-xss-protection: 0
-cf-cache-status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=MrEEe14hg0uHbe%2BntIzb%2FbFjybnxk%2Fgv79NVZ4wZFjkIldV1%2FKUqU%2BsHd%2Fiv5EXyuXZMjjq0F9SK2AWxBbKu%2Fks5CnJlKY4ihQFnx%2FvEXfAKHt3lColJ0QFy4d43SbU%3D"}],"group":"cf-nel","max_age":604800}
-NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-Server: cloudflare
-CF-RAY: 8de56e712d503a26-BOM
-Content-Encoding: gzip
-alt-svc: h3=":443"; ma=86400
-server-timing: cfL4;desc="?proto=TCP&rtt=37487&sent=4&recv=6&lost=0&retrans=0&sent_bytes=2885&recv_bytes=975&delivery_rate=78940&cwnd=251&unsent_bytes=0&cid=a07388ccbd58eee8&ts=229&x=0"
-
-{
-    "id": 7507711,
-    "name": "APiName",
-    "email": "apiautomation1730899754949@open.com",
-    "gender": "female",
-    "status": "active"
-}
-{
-    "id": 7507711,
-    "name": "APiName",
-    "email": "apiautomation1730899754949@open.com",
-    "gender": "female",
-    "status": "active"
-}
-patchUserTestWithBuilder passed!
-]]></system-out>
-  </testcase>
-  <testcase name="deleteUserTestWithBuilder" classname="com.qa.api.tests.DeleteUserTest" time="1.806">
-    <system-out><![CDATA[Test Suite is ending!
-Test Suite started!
-deleteUserTestWithBuilder started!
-{
-    "id": 7507712,
-    "name": "APiName",
-    "email": "apiautomation1730899756103@open.com",
-    "gender": "female",
-    "status": "active"
-}
-userId: 7507712
-HTTP/1.1 200 OK
-Date: Wed, 06 Nov 2024 13:29:17 GMT
-Content-Type: application/json; charset=utf-8
-Transfer-Encoding: chunked
-Connection: keep-alive
-Cache-Control: max-age=0, private, must-revalidate
-etag: W/"78d13e7ef92e0a779f28810a6310e91b"
+etag: W/"cd13f5dcaa2ca3bb2b20e1928232f9fc"
 referrer-policy: strict-origin-when-cross-origin
 vary: Origin
 x-content-type-options: nosniff
@@ -442,35 +469,92 @@ x-permitted-cross-domain-policies: none
 x-ratelimit-limit: 90
 x-ratelimit-remaining: 83
 x-ratelimit-reset: 6
-x-request-id: 5e98d04d-b701-46d7-b47a-994a1a9f5052
-x-runtime: 0.100733
+x-request-id: 85b5c121-e53b-4471-ba7a-8ef2cdeadfc9
+x-runtime: 0.106306
 x-xss-protection: 0
 cf-cache-status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=eVQWdieuSkCUDdQeDOxujGwrJaDXXH2t1b2Xf8z02OFazMgcCq72WpN0erwYXzYwaQawRrGlzo7H7w1u1EW%2FfxcUuKBzSWag%2Br4INz%2F1vZ5idQ40Al95%2FmveBRqVeXI%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=2zibRx%2Bd9yEj9HHvNVBeK1l7VFXv8X5jq8GesUJIDxR6sKua7LhFVLYEYgRcBi76BIKpxK7bs3HkDeh3wG8Voi83pgaynZQVQaDCcrW4ufILbeeSpa%2FT2qRfQZhshKg%3D"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 8de56e782c144436-BOM
+CF-RAY: 8e10b83fdc6a3a45-BOM
 Content-Encoding: gzip
 alt-svc: h3=":443"; ma=86400
-server-timing: cfL4;desc="?proto=TCP&rtt=41018&sent=4&recv=6&lost=0&retrans=0&sent_bytes=2884&recv_bytes=975&delivery_rate=72296&cwnd=249&unsent_bytes=0&cid=b77272869d2c3fc6&ts=251&x=0"
+server-timing: cfL4;desc="?proto=TCP&rtt=47423&sent=4&recv=6&lost=0&retrans=0&sent_bytes=2884&recv_bytes=975&delivery_rate=59183&cwnd=239&unsent_bytes=0&cid=77ac336ef1886964&ts=275&x=0"
 
 {
-    "id": 7507712,
+    "id": 7517394,
     "name": "APiName",
-    "email": "apiautomation1730899756103@open.com",
+    "email": "apiautomation1731353663695@open.com",
     "gender": "female",
     "status": "active"
 }
 {
-    "id": 7507712,
+    "id": 7517394,
     "name": "APiName",
-    "email": "apiautomation1730899756103@open.com",
+    "email": "apiautomation1731353663695@open.com",
+    "gender": "female",
+    "status": "active"
+}
+patchUserTestWithBuilder passed!
+]]></system-out>
+  </testcase>
+  <testcase name="deleteUserTestWithBuilder" classname="com.qa.api.tests.DeleteUserTest" time="2.066">
+    <system-out><![CDATA[Test Suite is ending!
+Test Suite started!
+deleteUserTestWithBuilder started!
+{
+    "id": 7517395,
+    "name": "APiName",
+    "email": "apiautomation1731353664683@open.com",
+    "gender": "female",
+    "status": "active"
+}
+userId: 7517395
+HTTP/1.1 200 OK
+Date: Mon, 11 Nov 2024 19:34:27 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cache-Control: max-age=0, private, must-revalidate
+etag: W/"b177a401fe4b901d4ec263f287306229"
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 81
+x-ratelimit-reset: 7
+x-request-id: 61a5f404-6288-4cd6-8110-f2848c8719ce
+x-runtime: 0.102048
+x-xss-protection: 0
+cf-cache-status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=YMNtMZuHyw%2BsNMg9xNS6b59c2dIEabnF5bOY1a%2BGZX9ElPyoOlmySTdiQYqONAOoAxwTRtCt5XLVXpOvamzcCjnKx4x9RgvA9K0%2BTOis3yYT2XpbTXka%2FpullZgHySo%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 8e10b84628c847cc-BOM
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400
+server-timing: cfL4;desc="?proto=TCP&rtt=47224&sent=4&recv=6&lost=0&retrans=0&sent_bytes=2885&recv_bytes=975&delivery_rate=58912&cwnd=247&unsent_bytes=0&cid=cecb1d5e652cce64&ts=273&x=0"
+
+{
+    "id": 7517395,
+    "name": "APiName",
+    "email": "apiautomation1731353664683@open.com",
+    "gender": "female",
+    "status": "active"
+}
+{
+    "id": 7517395,
+    "name": "APiName",
+    "email": "apiautomation1731353664683@open.com",
     "gender": "female",
     "status": "active"
 }
 
 HTTP/1.1 404 Not Found
-Date: Wed, 06 Nov 2024 13:29:18 GMT
+Date: Mon, 11 Nov 2024 19:34:28 GMT
 Content-Type: application/json; charset=utf-8
 Content-Length: 32
 Connection: keep-alive
@@ -482,18 +566,18 @@ x-download-options: noopen
 x-frame-options: SAMEORIGIN
 x-permitted-cross-domain-policies: none
 x-ratelimit-limit: 90
-x-ratelimit-remaining: 81
-x-ratelimit-reset: 7
-x-request-id: 2ad340e6-0b68-4e25-a97c-c8d99e6b3901
-x-runtime: 0.098115
+x-ratelimit-remaining: 79
+x-ratelimit-reset: 8
+x-request-id: b51f4caf-259a-403e-be98-e8fe8fc5e787
+x-runtime: 0.400883
 x-xss-protection: 0
 cf-cache-status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=aqQaKkwW5vDn8akzdmg7eVPK25VcOCbO%2FMptwsb3j6m9avlT8D41K%2FF14Eh8o5uLlK%2B8TjUqCaxA9H%2BaCmQ%2BqBQWffUunbSWXDRNg0ml9WJXoWzw%2FCG53aLQIZevIxU%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=ewl5fshEpmV5vFChY7QM4AsHmHRzVXnqBK0tWYMwxIfZZyd0TyuvUuRA%2FCNJ%2BxrjzMZ5mOFPlfWYnwx6s8Wva5nUY7%2Ba5o%2FCofV37wr%2BZwTQyVtJieQG2psY4imTWnA%3D"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 8de56e7e88dd85f1-BOM
+CF-RAY: 8e10b84c1a263b46-BOM
 alt-svc: h3=":443"; ma=86400
-server-timing: cfL4;desc="?proto=TCP&rtt=36281&sent=4&recv=6&lost=0&retrans=0&sent_bytes=2884&recv_bytes=975&delivery_rate=78759&cwnd=251&unsent_bytes=0&cid=e188e31a5f8818dc&ts=233&x=0"
+server-timing: cfL4;desc="?proto=TCP&rtt=47903&sent=4&recv=6&lost=0&retrans=0&sent_bytes=2884&recv_bytes=975&delivery_rate=61489&cwnd=251&unsent_bytes=0&cid=590b65efd683f70c&ts=501&x=0"
 
 {
     "message": "Resource not found"
@@ -504,116 +588,61 @@ server-timing: cfL4;desc="?proto=TCP&rtt=36281&sent=4&recv=6&lost=0&retrans=0&se
 deleteUserTestWithBuilder passed!
 ]]></system-out>
   </testcase>
-  <testcase name="createUserTest[Naveen, male, active](1)" classname="com.qa.api.tests.CreateUserTest" time="0.517">
+  <testcase name="createUserTest[Naveen, male, active](1)" classname="com.qa.api.tests.CreateUserTest" time="0.3">
     <system-out><![CDATA[Test Suite is ending!
 Test Suite started!
 createUserTest started!
 {
-    "id": 7507713,
+    "id": 7517396,
     "name": "Naveen",
-    "email": "apiautomation1730899758209@open.com",
+    "email": "apiautomation1731353666840@open.com",
     "gender": "male",
     "status": "active"
 }
 createUserTest passed!
 ]]></system-out>
   </testcase>
-  <testcase name="createUserTest[Mukesh, male, active](2)" classname="com.qa.api.tests.CreateUserTest" time="0.461">
+  <testcase name="createUserTest[Mukesh, male, active](2)" classname="com.qa.api.tests.CreateUserTest" time="0.417">
     <system-out><![CDATA[createUserTest started!
 {
-    "id": 7507714,
+    "id": 7517397,
     "name": "Mukesh",
-    "email": "apiautomation1730899758710@open.com",
+    "email": "apiautomation1731353667140@open.com",
     "gender": "male",
     "status": "active"
 }
 createUserTest passed!
 ]]></system-out>
   </testcase>
-  <testcase name="createUserTest[Sanjay, male, Inactive](3)" classname="com.qa.api.tests.CreateUserTest" time="0.389">
+  <testcase name="createUserTest[Sanjay, male, Inactive](3)" classname="com.qa.api.tests.CreateUserTest" time="0.407">
     <system-out><![CDATA[createUserTest started!
 {
-    "id": 7507715,
+    "id": 7517398,
     "name": "Sanjay",
-    "email": "apiautomation1730899759216@open.com",
+    "email": "apiautomation1731353667557@open.com",
     "gender": "male",
     "status": "inactive"
 }
 createUserTest passed!
 ]]></system-out>
   </testcase>
-  <testcase name="createUserTestWithBuilder[Naveen, male, active](1)" classname="com.qa.api.tests.CreateUserTest" time="0.934">
+  <testcase name="createUserTestWithBuilder[Naveen, male, active](1)" classname="com.qa.api.tests.CreateUserTest" time="1.066">
     <system-out><![CDATA[createUserTestWithBuilder started!
 {
-    "id": 7507716,
+    "id": 7517399,
     "name": "Naveen",
-    "email": "apiautomation1730899759627@open.com",
+    "email": "apiautomation1731353667964@open.com",
     "gender": "male",
     "status": "active"
 }
-userId: 7507716
+userId: 7517399
 HTTP/1.1 200 OK
-Date: Wed, 06 Nov 2024 13:29:20 GMT
+Date: Mon, 11 Nov 2024 19:34:31 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
 Cache-Control: max-age=0, private, must-revalidate
-etag: W/"bdd2b88b3a26bc38916907ac9c22f5e9"
-referrer-policy: strict-origin-when-cross-origin
-vary: Origin
-x-content-type-options: nosniff
-x-download-options: noopen
-x-frame-options: SAMEORIGIN
-x-permitted-cross-domain-policies: none
-x-ratelimit-limit: 90
-x-ratelimit-remaining: 77
-x-ratelimit-reset: 10
-x-request-id: 72c00cbc-01cd-45c3-887c-6aa3f9ab7dd2
-x-runtime: 0.068614
-x-xss-protection: 0
-cf-cache-status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=vIBefquaiQDBoMMmX%2FSEkFfXhwwbtxWtbGh2d2ks8dR3xYPYJ5OAPMVJ%2BWFhv5c0Kh%2FcQoDwiO83Ep3xV0aw18uRHCWI4QFfVciRrWag5R7DKU4EJ0nI5Nswo7TqwxI%3D"}],"group":"cf-nel","max_age":604800}
-NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-Server: cloudflare
-CF-RAY: 8de56e8e1b263a17-BOM
-Content-Encoding: gzip
-alt-svc: h3=":443"; ma=86400
-server-timing: cfL4;desc="?proto=TCP&rtt=80470&sent=4&recv=6&lost=0&retrans=0&sent_bytes=2886&recv_bytes=975&delivery_rate=49553&cwnd=251&unsent_bytes=0&cid=8fc62ec72c8b1245&ts=251&x=0"
-
-{
-    "id": 7507716,
-    "name": "Naveen",
-    "email": "apiautomation1730899759627@open.com",
-    "gender": "male",
-    "status": "active"
-}
-{
-    "id": 7507716,
-    "name": "Naveen",
-    "email": "apiautomation1730899759627@open.com",
-    "gender": "male",
-    "status": "active"
-}
-createUserTestWithBuilder passed!
-]]></system-out>
-  </testcase>
-  <testcase name="createUserTestWithBuilder[Mukesh, male, active](2)" classname="com.qa.api.tests.CreateUserTest" time="1.379">
-    <system-out><![CDATA[createUserTestWithBuilder started!
-{
-    "id": 7507718,
-    "name": "Mukesh",
-    "email": "apiautomation1730899760565@open.com",
-    "gender": "male",
-    "status": "active"
-}
-userId: 7507718
-HTTP/1.1 200 OK
-Date: Wed, 06 Nov 2024 13:29:21 GMT
-Content-Type: application/json; charset=utf-8
-Transfer-Encoding: chunked
-Connection: keep-alive
-Cache-Control: max-age=0, private, must-revalidate
-etag: W/"b79ffdd77ea07b58c7d2e5ea193f26e8"
+etag: W/"2654c02022c8280e6beca51e9251c600"
 referrer-policy: strict-origin-when-cross-origin
 vary: Origin
 x-content-type-options: nosniff
@@ -623,52 +652,52 @@ x-permitted-cross-domain-policies: none
 x-ratelimit-limit: 90
 x-ratelimit-remaining: 75
 x-ratelimit-reset: 11
-x-request-id: b909962d-1e69-45da-ad55-f0b344a9b2c6
-x-runtime: 0.093722
+x-request-id: 41a45955-a194-4e86-833e-b32207bfb27d
+x-runtime: 0.058304
 x-xss-protection: 0
 cf-cache-status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=uYLqBZUdjnDP9Iz6qtTU8oeOTg6HppW5N%2FK3dPMx1ojElH2FbxwLBmh%2BHLfJdnlMu91h%2BZppL0aScjSmuWj%2BhSEq5yNV89sS4HEFvf8BJZ2ODNgZKBfhfuUh7x3s1XI%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=KLXuDI1IbdJlabLyD3iUi5zis2gY4Mbu4NSZbaj8xQ25XklosscPb8Ddw52pAFPkJSF3GeFABrh2zBqGvOnWM2zIRjJ%2BqRrqlYTyeTH%2BaONeDV7Es2kn7O9OVnOnPTg%3D"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 8de56e93ad843a99-BOM
+CF-RAY: 8e10b85c0e373a2d-BOM
 Content-Encoding: gzip
 alt-svc: h3=":443"; ma=86400
-server-timing: cfL4;desc="?proto=TCP&rtt=36308&sent=4&recv=6&lost=0&retrans=0&sent_bytes=2886&recv_bytes=975&delivery_rate=80272&cwnd=251&unsent_bytes=0&cid=e5e94bb7066b5ad1&ts=240&x=0"
+server-timing: cfL4;desc="?proto=TCP&rtt=48365&sent=4&recv=6&lost=0&retrans=0&sent_bytes=2884&recv_bytes=975&delivery_rate=59394&cwnd=251&unsent_bytes=0&cid=8874b24c114b644b&ts=193&x=0"
 
 {
-    "id": 7507718,
-    "name": "Mukesh",
-    "email": "apiautomation1730899760565@open.com",
+    "id": 7517399,
+    "name": "Naveen",
+    "email": "apiautomation1731353667964@open.com",
     "gender": "male",
     "status": "active"
 }
 {
-    "id": 7507718,
-    "name": "Mukesh",
-    "email": "apiautomation1730899760565@open.com",
+    "id": 7517399,
+    "name": "Naveen",
+    "email": "apiautomation1731353667964@open.com",
     "gender": "male",
     "status": "active"
 }
 createUserTestWithBuilder passed!
 ]]></system-out>
   </testcase>
-  <testcase name="createUserTestWithBuilder[Sanjay, male, Inactive](3)" classname="com.qa.api.tests.CreateUserTest" time="1.053">
+  <testcase name="createUserTestWithBuilder[Mukesh, male, active](2)" classname="com.qa.api.tests.CreateUserTest" time="0.698">
     <system-out><![CDATA[createUserTestWithBuilder started!
 {
-    "id": 7507720,
-    "name": "Sanjay",
-    "email": "apiautomation1730899761951@open.com",
+    "id": 7517400,
+    "name": "Mukesh",
+    "email": "apiautomation1731353669033@open.com",
     "gender": "male",
-    "status": "inactive"
+    "status": "active"
 }
-userId: 7507720
+userId: 7517400
 HTTP/1.1 200 OK
-Date: Wed, 06 Nov 2024 13:29:22 GMT
+Date: Mon, 11 Nov 2024 19:34:31 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
 Cache-Control: max-age=0, private, must-revalidate
-etag: W/"ed1575edf41eebda906591f38d121a4d"
+etag: W/"581eb192e65c2960aaf772b88c3950b6"
 referrer-policy: strict-origin-when-cross-origin
 vary: Origin
 x-content-type-options: nosniff
@@ -676,62 +705,117 @@ x-download-options: noopen
 x-frame-options: SAMEORIGIN
 x-permitted-cross-domain-policies: none
 x-ratelimit-limit: 90
-x-ratelimit-remaining: 74
+x-ratelimit-remaining: 73
 x-ratelimit-reset: 12
-x-request-id: b58d305f-24e5-4b48-ad82-78223124dda0
-x-runtime: 0.109661
+x-request-id: f16753b0-6cc8-4700-8c86-820bca37668f
+x-runtime: 0.074588
 x-xss-protection: 0
 cf-cache-status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=EREKm%2FLrsc%2FXSkR4g4FUjzP%2BgrvAbApm0fvQPkpuBCX2JHec8oC3knuZXF2r7Wad9mORYxmH%2FeQ2%2FwXx270tC3ScTTKvFUOjszmndiZrkhSKjKPPXRH4hCKHAejQ60o%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=y6RcZT1JCC3qj9RQl1F2CrOVIPDfxgQ88iEgGebGzg46rkNSdEdys4dUmWpZroSJL9mQkxRhoCIpzKh1BeXIZA5RA37pYblBc3D57VawtpcVLNwTpJK2vmB1jZvpl5s%3D"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 8de56e9d5ab64162-BOM
+CF-RAY: 8e10b860b8a53fa3-BOM
 Content-Encoding: gzip
 alt-svc: h3=":443"; ma=86400
-server-timing: cfL4;desc="?proto=TCP&rtt=43882&sent=4&recv=6&lost=0&retrans=0&sent_bytes=2884&recv_bytes=975&delivery_rate=58929&cwnd=246&unsent_bytes=0&cid=4f6e1bd99a84fa0c&ts=210&x=0"
+server-timing: cfL4;desc="?proto=TCP&rtt=47254&sent=4&recv=6&lost=0&retrans=0&sent_bytes=2885&recv_bytes=975&delivery_rate=59168&cwnd=239&unsent_bytes=0&cid=b4a7c5ea501785d7&ts=174&x=0"
 
 {
-    "id": 7507720,
+    "id": 7517400,
+    "name": "Mukesh",
+    "email": "apiautomation1731353669033@open.com",
+    "gender": "male",
+    "status": "active"
+}
+{
+    "id": 7517400,
+    "name": "Mukesh",
+    "email": "apiautomation1731353669033@open.com",
+    "gender": "male",
+    "status": "active"
+}
+createUserTestWithBuilder passed!
+]]></system-out>
+  </testcase>
+  <testcase name="createUserTestWithBuilder[Sanjay, male, Inactive](3)" classname="com.qa.api.tests.CreateUserTest" time="0.631">
+    <system-out><![CDATA[createUserTestWithBuilder started!
+{
+    "id": 7517401,
     "name": "Sanjay",
-    "email": "apiautomation1730899761951@open.com",
+    "email": "apiautomation1731353669746@open.com",
+    "gender": "male",
+    "status": "inactive"
+}
+userId: 7517401
+HTTP/1.1 200 OK
+Date: Mon, 11 Nov 2024 19:34:32 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cache-Control: max-age=0, private, must-revalidate
+etag: W/"5ef8ba30a94923341682aaa54ec91db7"
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 71
+x-ratelimit-reset: 14
+x-request-id: e6829ed1-2291-4551-a027-744f1bd97ab4
+x-runtime: 0.060680
+x-xss-protection: 0
+cf-cache-status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=OPdQJx3yoj48MJfy9hYxR5Jf5uGBXyuKQECFKMGKI%2FlqgLigTiXoZMomITr2n78WCEWgDliyrugOUtUxdxwzr7jFoCUf8KgZ7%2BAHMTJYVECjIimDJ9MnVtRa3hBhlKQ%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 8e10b864ce33482f-BOM
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400
+server-timing: cfL4;desc="?proto=TCP&rtt=46170&sent=4&recv=6&lost=0&retrans=0&sent_bytes=2883&recv_bytes=975&delivery_rate=60846&cwnd=251&unsent_bytes=0&cid=903d8bdfadd02001&ts=152&x=0"
+
+{
+    "id": 7517401,
+    "name": "Sanjay",
+    "email": "apiautomation1731353669746@open.com",
     "gender": "male",
     "status": "inactive"
 }
 {
-    "id": 7507720,
+    "id": 7517401,
     "name": "Sanjay",
-    "email": "apiautomation1730899761951@open.com",
+    "email": "apiautomation1731353669746@open.com",
     "gender": "male",
     "status": "inactive"
 }
 createUserTestWithBuilder passed!
 ]]></system-out>
   </testcase>
-  <testcase name="getUserTest" classname="com.qa.reqres.api.tests.ReqResTest" time="0.361">
+  <testcase name="getUserTest" classname="com.qa.reqres.api.tests.ReqResTest" time="0.258">
     <system-out><![CDATA[Test Suite is ending!
 Test Suite started!
 getUserTest started!
 Auth is not required....
 HTTP/1.1 200 OK
-Date: Wed, 06 Nov 2024 13:29:23 GMT
+Date: Mon, 11 Nov 2024 19:34:32 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1730897885&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=VJq7BZSoUqH33d%2Bjb0Et8jgv4qKaTgmU5U5KtY25YAQ%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1730897885&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=VJq7BZSoUqH33d%2Bjb0Et8jgv4qKaTgmU5U5KtY25YAQ%3D
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1731322682&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=W%2FkmXS9UYmluNCndQn0ly9SeBrbMxVXYKiBZR4fL9zw%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1731322682&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=W%2FkmXS9UYmluNCndQn0ly9SeBrbMxVXYKiBZR4fL9zw%3D
 Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 X-Powered-By: Express
 Access-Control-Allow-Origin: *
-Etag: W/"118-pbdwwFo9SKNhD3Lx5iHJyngpq00"
+Etag: W/"152-ApQgGHL6RKwaebFlrPCYPBO1xHg"
 Via: 1.1 vegur
 Cache-Control: max-age=14400
 CF-Cache-Status: HIT
-Age: 1878
+Age: 2070
 Vary: Accept-Encoding
 Server: cloudflare
-CF-RAY: 8de56ea308603aec-BOM
+CF-RAY: 8e10b8679dff3d0c-BOM
 Content-Encoding: gzip
-server-timing: cfL4;desc="?proto=TCP&rtt=51860&sent=6&recv=6&lost=0&retrans=0&sent_bytes=3109&recv_bytes=869&delivery_rate=110435&cwnd=252&unsent_bytes=0&cid=a819b236d0f150e8&ts=144&x=0"
+server-timing: cfL4;desc="?proto=TCP&rtt=48021&sent=6&recv=6&lost=0&retrans=0&sent_bytes=3109&recv_bytes=869&delivery_rate=90053&cwnd=241&unsent_bytes=0&cid=815f33806d3b86d4&ts=111&x=0"
 
 {
     "data": {
@@ -742,8 +826,8 @@ server-timing: cfL4;desc="?proto=TCP&rtt=51860&sent=6&recv=6&lost=0&retrans=0&se
         "avatar": "https://reqres.in/img/faces/2-image.jpg"
     },
     "support": {
-        "url": "https://reqres.in/#support-heading",
-        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+        "url": "https://contentcaddy.io?utm_source=reqres&utm_medium=json&utm_campaign=referral",
+        "text": "Tired of writing endless social media content? Let Content Caddy generate it for you."
     }
 }
 {
@@ -755,14 +839,14 @@ server-timing: cfL4;desc="?proto=TCP&rtt=51860&sent=6&recv=6&lost=0&retrans=0&se
         "avatar": "https://reqres.in/img/faces/2-image.jpg"
     },
     "support": {
-        "url": "https://reqres.in/#support-heading",
-        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+        "url": "https://contentcaddy.io?utm_source=reqres&utm_medium=json&utm_campaign=referral",
+        "text": "Tired of writing endless social media content? Let Content Caddy generate it for you."
     }
 }
 getUserTest passed!
 ]]></system-out>
   </testcase>
-  <testcase name="getContactsTest" classname="com.qa.contacts.api.tests.ContactsTest" time="1.98">
+  <testcase name="getContactsTest" classname="com.qa.contacts.api.tests.ContactsTest" time="1.322">
     <system-out><![CDATA[Test Suite is ending!
 Test Suite started!
 Auth is not required....
@@ -772,23 +856,23 @@ Auth is not required....
         "firstName": "Naveen",
         "lastName": "Khunteta",
         "email": "naveenanimation20@gmail.com",
-        "__v": 447
+        "__v": 502
     },
-    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDg3MWE2NmY2ZDEzYzAwMTM3Y2IzMWEiLCJpYXQiOjE3MzA4OTk3NjV9.dbkTncEoB6-o-7OhI_faSsH68DbG0N5-gAvtIt26oWo"
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDg3MWE2NmY2ZDEzYzAwMTM3Y2IzMWEiLCJpYXQiOjE3MzEzNTM2NzR9.x48Z7zpUEyJ5pGv03_iXTbOT92VBWQpBtsxvl55JNac"
 }
-Token id ===>eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDg3MWE2NmY2ZDEzYzAwMTM3Y2IzMWEiLCJpYXQiOjE3MzA4OTk3NjV9.dbkTncEoB6-o-7OhI_faSsH68DbG0N5-gAvtIt26oWo
+Token id ===>eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDg3MWE2NmY2ZDEzYzAwMTM3Y2IzMWEiLCJpYXQiOjE3MzEzNTM2NzR9.x48Z7zpUEyJ5pGv03_iXTbOT92VBWQpBtsxvl55JNac
 getContactsTest started!
 HTTP/1.1 200 OK
 Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1730899766&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=JvKVhmqt%2BEI2V1hBmnQbhF%2BWm5caXfPCUwpNg1wTtc8%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1730899766&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=JvKVhmqt%2BEI2V1hBmnQbhF%2BWm5caXfPCUwpNg1wTtc8%3D
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1731353675&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=wESwVLVx88y4JclMfiy6mZYlTqZhKNC5spxTlFGetNc%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1731353675&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=wESwVLVx88y4JclMfiy6mZYlTqZhKNC5spxTlFGetNc%3D
 Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Connection: keep-alive
 X-Powered-By: Express
 Content-Type: application/json; charset=utf-8
 Content-Length: 15454
 Etag: W/"3c5e-cl3qO5FWWj6dM9nItQNMssUkUmM"
-Date: Wed, 06 Nov 2024 13:29:27 GMT
+Date: Mon, 11 Nov 2024 19:34:35 GMT
 Via: 1.1 vegur
 
 [
@@ -2392,13 +2476,13 @@ Via: 1.1 vegur
 getContactsTest passed!
 ]]></system-out>
   </testcase>
-  <testcase name="getProductsAPILimitTest" classname="com.qa.products.api.tests.ProductAPITest" time="0.747">
+  <testcase name="getProductsAPILimitTest" classname="com.qa.products.api.tests.ProductAPITest" time="0.724">
     <system-out><![CDATA[Test Suite is ending!
 Test Suite started!
 getProductsAPILimitTest started!
 Auth is not required....
 HTTP/1.1 200 OK
-Date: Wed, 06 Nov 2024 13:29:28 GMT
+Date: Mon, 11 Nov 2024 19:34:36 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -2406,13 +2490,13 @@ access-control-allow-origin: *
 etag: W/"901-RZCdFEZQ+j7q2G9bMJOMuLfz40Y"
 x-powered-by: Express
 cf-cache-status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=rktj6tgOruncpVbsf%2FAIOjvYBRwRS0xtSBBn9O7Q1zdAGE%2F38z3pna1DeQR4mzHXl4XYoOnx1LnPZReNtNWChpwaimvZHqp2D9D3J1fhv3DkP%2BB7h9jmYDkKwwMvKRf6zVUN"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=JE49M6HWGNaTHEBpocwY%2Fd6iRokd%2BrUM7vKJraunqmiCVmihRTyKzNrXe8l08YLVrL5BsNGJ0GRljBKk5oqtfvctQjiMzuXPYCNxzYsER6xdLTyiggCpa7pAceoz84rM20RR"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 8de56ebc5e133cd0-BOM
+CF-RAY: 8e10b87adeb047d5-BOM
 Content-Encoding: gzip
 alt-svc: h3=":443"; ma=86400
-server-timing: cfL4;desc="?proto=TCP&rtt=42628&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3125&recv_bytes=888&delivery_rate=62882&cwnd=252&unsent_bytes=0&cid=fbb72101dd7dac1d&ts=532&x=0"
+server-timing: cfL4;desc="?proto=TCP&rtt=38165&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3126&recv_bytes=888&delivery_rate=113911&cwnd=235&unsent_bytes=0&cid=2199ec8bd0b83c57&ts=510&x=0"
 
 [
     {
@@ -2541,11 +2625,11 @@ server-timing: cfL4;desc="?proto=TCP&rtt=42628&sent=5&recv=6&lost=0&retrans=0&se
 getProductsAPILimitTest passed!
 ]]></system-out>
   </testcase>
-  <testcase name="getProductsAPITest" classname="com.qa.products.api.tests.ProductAPITest" time="0.883">
+  <testcase name="getProductsAPITest" classname="com.qa.products.api.tests.ProductAPITest" time="0.83">
     <system-out><![CDATA[getProductsAPITest started!
 Auth is not required....
 HTTP/1.1 200 OK
-Date: Wed, 06 Nov 2024 13:29:28 GMT
+Date: Mon, 11 Nov 2024 19:34:37 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -2553,13 +2637,13 @@ access-control-allow-origin: *
 etag: W/"297c-h+n6NsR3M51S6528jZo3BluzvtU"
 x-powered-by: Express
 cf-cache-status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=0OWczMEPmz3OP6M4b8N8VUyMz8yVsr6v5E7IqZyKkcJLl9ZgoBivU%2FjBWwyzE9MoU1ggIcKoDynzst5ovBEIykQgyT%2BwdmFcLolq9YhkjQGOH4P%2BUF5Ma9vqxd%2BFv%2Byv66jn"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=CiC8rFgw1gQgoZ4MX1E%2FFAeB%2FLVAcOZWSJER%2FeRBixi5y8F4ACR0g9xcRO3MeeSjnynntS2thY2ZPo1993COUwce75%2BM0O3sLGUHgsTicEfDV3EvZ8Ayf1olkNu2GZaPh8eo"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 8de56ec11be94019-BOM
+CF-RAY: 8e10b87f1e0846f5-BOM
 Content-Encoding: gzip
 alt-svc: h3=":443"; ma=86400
-server-timing: cfL4;desc="?proto=TCP&rtt=39293&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3126&recv_bytes=880&delivery_rate=111373&cwnd=252&unsent_bytes=0&cid=76db1fc5522fe1bd&ts=489&x=0"
+server-timing: cfL4;desc="?proto=TCP&rtt=38435&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3126&recv_bytes=880&delivery_rate=108733&cwnd=236&unsent_bytes=0&cid=82f7392d461489c7&ts=508&x=0"
 
 [
     {
@@ -3048,13 +3132,13 @@ server-timing: cfL4;desc="?proto=TCP&rtt=39293&sent=5&recv=6&lost=0&retrans=0&se
 getProductsAPITest passed!
 ]]></system-out>
   </testcase>
-  <testcase name="getProductsTest" classname="com.qa.products.api.tests.ProductAPITestWithDeserialization" time="1.396">
+  <testcase name="getProductsTest" classname="com.qa.products.api.tests.ProductAPITestWithDeserialization" time="0.904">
     <system-out><![CDATA[Test Suite is ending!
 Test Suite started!
 getProductsTest started!
 Auth is not required....
 HTTP/1.1 200 OK
-Date: Wed, 06 Nov 2024 13:29:30 GMT
+Date: Mon, 11 Nov 2024 19:34:37 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -3062,13 +3146,13 @@ access-control-allow-origin: *
 etag: W/"297c-h+n6NsR3M51S6528jZo3BluzvtU"
 x-powered-by: Express
 cf-cache-status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=M7MAaY5ZTkjFm0zDcmfBYPjSqp0NovkaotzADiO72NCuXaj773Hdqor%2BZ9EoR91bGg1vtSKFqaYVMANfw%2FlpLFmlx6Ahxyv7AtOWUBFlaLY2tQH4cMpov9eguPXURw%2FHOGFw"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=an0taiexgbeATuqMOyrT6prwDHCqlKRF%2Bl47zx0hEiG%2FB%2Fqt1Ac5jQyrmZPP%2BVSDdyabvggZ%2BkyIf4M1AV%2F1Vc6maNPtxbCuMA4Gv5oR%2FvouaBl2yDthmJw7bJRSlguuavLC"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 8de56ec80b8cf38c-BOM
+CF-RAY: 8e10b884a944f44e-BOM
 Content-Encoding: gzip
 alt-svc: h3=":443"; ma=86400
-server-timing: cfL4;desc="?proto=TCP&rtt=38051&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3125&recv_bytes=880&delivery_rate=106800&cwnd=237&unsent_bytes=0&cid=ffd43dce745a2206&ts=502&x=0"
+server-timing: cfL4;desc="?proto=TCP&rtt=37527&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3125&recv_bytes=880&delivery_rate=112457&cwnd=231&unsent_bytes=0&cid=6a03d83e50c8a376&ts=478&x=0"
 
 [
     {
@@ -3678,13 +3762,13 @@ Count: 145.0
 getProductsTest passed!
 ]]></system-out>
   </testcase>
-  <testcase name="getProductTest" classname="com.qa.products.api.tests.ProductTestWithJsonPathValidator" time="0.447">
+  <testcase name="getProductTest" classname="com.qa.products.api.tests.ProductTestWithJsonPathValidator" time="0.841">
     <system-out><![CDATA[Test Suite is ending!
 Test Suite started!
 getProductTest started!
 Auth is not required....
 HTTP/1.1 200 OK
-Date: Wed, 06 Nov 2024 13:29:31 GMT
+Date: Mon, 11 Nov 2024 19:34:38 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -3692,13 +3776,13 @@ access-control-allow-origin: *
 etag: W/"297c-h+n6NsR3M51S6528jZo3BluzvtU"
 x-powered-by: Express
 cf-cache-status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=yl2MwnDMTdGdmsa17VFvPlTn7cbdTddbbrUFSwEODWDVo2SmCqW1kiQ4i4atnqtkLg31%2F3hE2VwVI1FvuNZBOpXqf%2FttYwl9Jcfv20F5rU%2B7rQLzIHcBs%2FLwlYlC73GRHJBk"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=A9fRdPPMBdH6cYBIrdmG%2BAcPVaHCZLwP%2B5GjeyJZs5QYprJkMpnxf3Ik2twPl93dfrRSUa9AuHBGsUmm6nVlyzfzgivLEblPuu8El9mNVBIOI88wh4%2FBGRXafiQtSF%2FHBgw3"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 8de56ed098393f56-BOM
+CF-RAY: 8e10b88a9c043ab3-BOM
 Content-Encoding: gzip
 alt-svc: h3=":443"; ma=86400
-server-timing: cfL4;desc="?proto=TCP&rtt=38910&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3125&recv_bytes=880&delivery_rate=115710&cwnd=252&unsent_bytes=0&cid=20ef4610aed63e69&ts=211&x=0"
+server-timing: cfL4;desc="?proto=TCP&rtt=38457&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3124&recv_bytes=880&delivery_rate=108803&cwnd=248&unsent_bytes=0&cid=776fc252b72d0921&ts=487&x=0"
 
 [
     {
